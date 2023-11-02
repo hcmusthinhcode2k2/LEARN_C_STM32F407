@@ -1,0 +1,34 @@
+09:51:04 **** Incremental Build of configuration Debug for project structPacket ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:37: warning: format '%I64u' expects a matching 'long long unsigned int' argument [-Wformat=]
+   42 |     printf("crc            :%#x %I64u\n", packet.crc);
+      |                                 ~~~~^
+      |                                     |
+      |                                     long long unsigned int
+..\main.c:42:37: warning: format '%I64u' expects a matching 'long long unsigned int' argument [-Wformat=]
+..\main.c:51:36: warning: ' ' flag used with '%u' ms_printf format [-Wformat=]
+   51 |     printf("size of struct is % I64u\n",sizeof(packet));
+      |                                    ^
+..\main.c:51:36: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   51 |     printf("size of struct is % I64u\n",sizeof(packet));
+      |                               ~~~~~^    ~~~~~~~~~~~~~~
+      |                                    |    |
+      |                                    |    unsigned int
+      |                                    long long unsigned int
+      |                               % u
+..\main.c:51:36: warning: ' ' flag used with '%u' ms_printf format [-Wformat=]
+   51 |     printf("size of struct is % I64u\n",sizeof(packet));
+      |                                    ^
+..\main.c:51:36: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   51 |     printf("size of struct is % I64u\n",sizeof(packet));
+      |                               ~~~~~^    ~~~~~~~~~~~~~~
+      |                                    |    |
+      |                                    |    unsigned int
+      |                                    long long unsigned int
+      |                               % u
+gcc -o structPacket.exe main.o 
+
+09:51:04 Build Finished. 0 errors, 6 warnings. (took 505ms)
+

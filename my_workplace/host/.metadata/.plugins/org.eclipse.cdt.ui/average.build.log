@@ -1,0 +1,6 @@
+22:07:26 **** Clean-only build of configuration Debug for project average ****
+rm -rf main.o average.exe main.d 
+rm: cannot remove `average.exe': Permission denied
+
+22:07:26 Build Finished. 0 errors, 0 warnings. (took 165ms)
+

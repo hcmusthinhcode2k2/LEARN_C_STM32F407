@@ -1,0 +1,16 @@
+2023-10-10 17:48:00,287 [INFO] MainUpdater:2854 - connection check result : 10
+2023-10-10 17:48:00,720 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-10-10 17:48:00,728 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-10 17:48:00,732 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-10 17:48:02,313 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-10 17:48:02,313 [INFO] DetailPanel:341 - Set advertising image to C:/Users/thinh/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-10 17:48:06,116 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-10 17:48:06,226 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-10 17:48:06,226 [INFO] DetailPanel:341 - Set advertising image to C:/Users/thinh/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-10 17:48:15,824 [INFO] BoardResultTable:719 - Unmark Board STM32F407G-DISC1 as favorite
+2023-10-10 17:48:17,903 [INFO] BoardResultTable:719 - Mark Board STM32F407G-DISC1 as favorite
+2023-10-10 17:48:37,115 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-10-10 17:48:37,123 [INFO] ApiDb:448 - Save user favorites file C:\Users\thinh/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-10-10 17:48:37,124 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103RCT6]
+2023-10-10 17:48:37,125 [INFO] ApiDb:448 - Save user favorites file C:\Users\thinh/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2023-10-10 17:48:37,125 [INFO] ApiDb:452 - User favorites Boards=[STM32F407G-DISC1]

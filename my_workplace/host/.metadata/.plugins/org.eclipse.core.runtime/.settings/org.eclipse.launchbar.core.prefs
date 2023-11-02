@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:average.exe,org.eclipse.launchbar.core.descriptorType.default\:averagea.exe,org.eclipse.launchbar.core.descriptorType.default\:bitWire2Numbers.exe,org.eclipse.launchbar.core.descriptorType.default\:floatPrice.exe,org.eclipse.launchbar.core.descriptorType.default\:funtion.exe,org.eclipse.launchbar.core.descriptorType.default\:ifelseifTax.exe,org.eclipse.launchbar.core.descriptorType.default\:ifelseoneortwo.exe,org.eclipse.launchbar.core.descriptorType.default\:ifstatementCastVote.exe,org.eclipse.launchbar.core.descriptorType.default\:pointer.exe,org.eclipse.launchbar.core.descriptorType.default\:pointer_1.exe,org.eclipse.launchbar.core.descriptorType.default\:WhileLoop1to10.exe,org.eclipse.launchbar.core.descriptorType.default\:structInit.exe,org.eclipse.launchbar.core.descriptorType.default\:dataAlignment.exe,org.eclipse.launchbar.core.descriptorType.default\:unions.exe,org.eclipse.launchbar.core.descriptorType.default\:arrays.exe,org.eclipse.launchbar.core.descriptorType.default\:string.exe,org.eclipse.launchbar.core.descriptorType.default\:macro.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:WhileLoop1to10.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:arrays.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:arrays.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:average.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:average.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:floatPrice.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:funtion.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:funtion.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:macro.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:string.exe/activeLaunchMode=run

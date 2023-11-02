@@ -1,0 +1,13 @@
+19:04:02 **** Incremental Build of configuration Debug for project math ****
+make all 
+'Building target: math'
+'Invoking: Cross GCC Linker'
+gcc  -o "math"  ./main.o ./math.o   
+C:\Users\thinh\Downloads\CTOOLS\CTOOLS\mingw32\bin/ld.exe: C:/Users/thinh/Downloads/CTOOLS/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/libmingw32.a(lib32_libmingw32_a-crt0_c.o): in function `main':
+E:/mingwbuild/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:45: math] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+19:04:04 Build Failed. 3 errors, 0 warnings. (took 1s.422ms)
+

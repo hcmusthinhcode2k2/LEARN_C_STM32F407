@@ -1,0 +1,7 @@
+20:42:31 **** Rebuild of configuration Debug for project constData ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o constData.exe main.o 
+
+20:42:35 Build Finished. 0 errors, 0 warnings. (took 3s.439ms)
+

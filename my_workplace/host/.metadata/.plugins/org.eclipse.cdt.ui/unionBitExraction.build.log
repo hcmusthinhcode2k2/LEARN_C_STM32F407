@@ -1,0 +1,22 @@
+11:40:44 **** Rebuild of configuration Debug for project unionBitExraction ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:41:31: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   41 |  printf("Size of union is %I64u\n",sizeof(packet));
+      |                           ~~~~^    ~~~~~~~~~~~~~~
+      |                               |    |
+      |                               |    unsigned int
+      |                               long long unsigned int
+      |                           %u
+..\main.c:41:31: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   41 |  printf("Size of union is %I64u\n",sizeof(packet));
+      |                           ~~~~^    ~~~~~~~~~~~~~~
+      |                               |    |
+      |                               |    unsigned int
+      |                               long long unsigned int
+      |                           %u
+gcc -o unionBitExraction.exe main.o 
+
+11:40:46 Build Finished. 0 errors, 2 warnings. (took 1s.820ms)
+

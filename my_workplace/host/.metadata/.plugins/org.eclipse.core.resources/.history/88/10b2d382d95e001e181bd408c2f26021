@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: 29 thg 9, 2023
+ *      Author: thinh
+ */
+#include <stdio.h>
+
+int main(void)
+{
+	float number1,number2,number3;
+	float average;
+	printf("number 1=");
+	scanf("%f",&number1);
+	printf("number 2=");
+	scanf("%f",&number2);
+	printf("number 3=");
+	scanf("%f",&number3);
+	average=(number1+number2+number3)/3;
+	printf("%f\n",average);
+}

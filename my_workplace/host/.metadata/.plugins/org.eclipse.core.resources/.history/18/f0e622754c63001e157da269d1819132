@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: 5 thg 10, 2023
+ *      Author: thinh
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+void wait_for_user_input(void)
+{
+	while (getchar()!='\n')
+	{
+
+	}
+	getchar();
+}
+
+int main (void)
+{
+	int32_t start_num,end_num,even;
+	printf("Enter starting and ending numbers(give space between 2 nos):");
+	scanf("%d %d",&start_num,&end_num);
+
+	even=0;
+	while (start_num<=end_num)
+	{
+		if (!(start_num % 2))
+		{
+			printf("%d\t",start_num);
+			even++;
+		}
+		start_num++;
+	}
+	wait_for_user_input();
+}

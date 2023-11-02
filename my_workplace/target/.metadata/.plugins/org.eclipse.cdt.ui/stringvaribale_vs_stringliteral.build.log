@@ -1,0 +1,10 @@
+00:49:32 **** Incremental Build of configuration Debug for project stringvaribale_vs_stringliteral ****
+make -j4 all 
+arm-none-eabi-size   stringvaribale_vs_stringliteral.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5256	    108	   1588	   6952	   1b28	stringvaribale_vs_stringliteral.elf
+Finished building: default.size.stdout
+ 
+
+00:49:32 Build Finished. 0 errors, 0 warnings. (took 346ms)
+

@@ -1,0 +1,38 @@
+/*
+ * main.c
+ *
+ *  Created on: 10 thg 10, 2023
+ *      Author: thinh
+ */
+
+
+#include <stdint.h>
+#include <stdio.h>
+int main (void)
+{
+	uint8_t someData[10]={0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+	printf("contents of this array\n");
+	for (uint32_t i=0;i<10;i++)
+	{
+		printf("%x\t",someData[i]);
+	}
+	printf("\n");
+	someData[2]=0x33;
+	for (uint32_t i=0;i<10;i++)
+	{
+
+		printf("%x\t",someData[i]);
+	}
+	printf("\n");
+	for (uint32_t i=0;i<10;i++)
+	{
+		someData[2]=0x33;
+		printf("%x\t",someData[i]);
+	}
+	while (getchar()!='\n')
+	{
+
+	}
+	getchar();
+	return 0;
+}

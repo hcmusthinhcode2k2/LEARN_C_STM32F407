@@ -1,0 +1,6 @@
+00:34:48 **** Incremental Build of configuration Debug for project ifelseifTax ****
+Info: Internal Builder is used for build
+gcc -o ifelseifTax.exe main.o 
+
+00:34:48 Build Finished. 0 errors, 0 warnings. (took 265ms)
+

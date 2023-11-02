@@ -1,0 +1,17 @@
+23:28:52 **** Incremental Build of configuration Debug for project packed_Vsnonpacked ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "packed_Vsnonpacked.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Embedded-C-BASIC\my_workplace\target\packed_Vsnonpacked\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="packed_Vsnonpacked.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: packed_Vsnonpacked.elf
+ 
+arm-none-eabi-size   packed_Vsnonpacked.elf 
+arm-none-eabi-objdump -h -S  packed_Vsnonpacked.elf  > "packed_Vsnonpacked.list"
+   text	   data	    bss	    dec	    hex	filename
+   5352	    108	   1596	   7056	   1b90	packed_Vsnonpacked.elf
+Finished building: default.size.stdout
+ 
+Finished building: packed_Vsnonpacked.list
+ 
+
+23:28:56 Build Finished. 0 errors, 0 warnings. (took 3s.514ms)
+
